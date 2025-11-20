@@ -1,6 +1,26 @@
-import { Link } from 'react-router-dom'
-export default function LinkText(props:any) {
-    return (
-        <Link to={props.to || '#'} className={props.className || ''} style={props.style}>{props.text || 'Link Text'}</Link>
-    )
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+interface LinkTextProps {
+  to?: string;
+  text?: string;
+  className?: string;
+  style?: React.CSSProperties;
+}
+
+export default function LinkText({
+  to = '#',
+  text = 'Link Text',
+  className = '',
+  style
+}: LinkTextProps) {
+  return (
+    <Link 
+      to={to} 
+      className={`footer-link ${className || ''}`} 
+      style={style}
+    >
+      {text}
+    </Link>
+  );
 }

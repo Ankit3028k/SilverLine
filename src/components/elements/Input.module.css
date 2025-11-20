@@ -1,0 +1,54 @@
+.input {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input input {
+  width: 100%;
+  background: var(--light-bg);
+  border: 1px solid var(--light-surface-3);
+  padding: 12px 15px;
+  color: var(--text-primary);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  font-family: var(--text-secondary);
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+  border: 1px solid var(--primary-blue);
+  box-shadow: 0 0 0 3px rgba(56, 81, 145, 0.1);
+}
+
+.input input:hover {
+  border-color: var(--primary-blue);
+}
+
+.input label {
+  position: absolute;
+  top: 1.5rem;
+  left: 15px;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  pointer-events: none;
+  font-size: 0.9rem;
+  z-index: 1;
+}
+
+.input input:focus + label,
+.input input:not(:placeholder-shown) + label {
+  top: 0.5rem;
+  left: 15px;
+  font-size: 0.75rem;
+  background: var(--light-bg);
+  padding: 0 5px;
+  color: var(--primary-blue);
+}
+
+.input i {
+  margin-right: 5px;
+  color: var(--primary-blue);
+}

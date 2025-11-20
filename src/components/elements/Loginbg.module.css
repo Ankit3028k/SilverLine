@@ -1,7 +1,7 @@
 .loginbg {
     width: 100vw;
     height: 100vh;
-    background-color: var(--light-surface-2);
+    background: linear-gradient(135deg, var(--light-surface-2) 0%, var(--light-bg) 100%);
     position: fixed;
     overflow: hidden;
     z-index: -1;
@@ -15,8 +15,9 @@
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-    background-color: var(--primary-orange);
-    opacity: 0.5;
+    background: var(--gradient-accent);
+    opacity: 0.3;
+    filter: blur(20px);
 }
 
 .loginbg::after {
@@ -27,6 +28,7 @@
     width: 40rem;
     height: 40rem;
     border-radius: 50%;
-    background-color: var(--primary-orange);
-    opacity: 0.5;
+    background: var(--gradient-primary);
+    opacity: 0.2;
+    filter: blur(30px);
 }

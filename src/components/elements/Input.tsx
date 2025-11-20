@@ -1,10 +1,44 @@
+import React from 'react';
+// @ts-ignore
+import styles from './Input.module.css';
 
+interface InputProps {
+  id?: string;
+  type?: string;
+  placeholder?: string;
+  label?: string;
+  icon?: string;
+  className?: string;
+  style?: React.CSSProperties;
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
 
-export default function Input(props:any) {
-    return (
-        <div className={`input ${props.className || ''}`} style={props.style}>
-            <input id={props.id || 'input'} type={props.type || 'text'} placeholder={props.placeholder || ''} />
-            <label className="row justify-start items-center" htmlFor={props.id || 'input'}><i className={`${props.icon || ''}`}></i> <span> {props.label || 'Input'}</span></label> 
-        </div>
-    )
+export default function Input({
+  id = 'input',
+  type = 'text',
+  placeholder = '',
+  label = 'Input',
+  icon = '',
+  className = '',
+  style,
+  value,
+  onChange
+}: InputProps) {
+  return (
+    <div className={`${styles.input} ${className || ''}`} style={style}>
+      <input 
+        id={id} 
+        type={type} 
+        placeholder=" " 
+        value={value}
+        onChange={onChange}
+        className="form-control"
+      />
+      <label htmlFor={id}>
+        {icon && <i className={icon}></i>}
+        {label}
+      </label> 
+    </div>
+  );
 }

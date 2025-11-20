@@ -1,0 +1,55 @@
+/* Image styles for the contact lens website */
+
+/* Hero section background */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Lens category images */
+.lens-category-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px 16px 0 0;
+  margin-bottom: 1rem;
+}
+
+/* Product images */
+.product-image {
+  width: 100%;
+  height: 250px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+/* Contact page images */
+.contact-image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+/* Information page images */
+.info-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: 2rem 0;
+}
+
+/* Background patterns */
+.pattern-bg {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMwIDIyQzMyLjIwOTEgMjIgMzQgMjAuMjA5MSAzNCAxOEMzNCAxNS43OTA5IDMyLjIwOTEgMTQgMzAgMTRDMjcuNzkwOSAxNCAyNiAxNS43OTA5IDI2IDE4QzI2IDIwLjIwOTEgMjcuNzkwOSAyMiAzMCAyMlpNMzAgMjZDMzQuNjkyMSAyNiAzOC4zMzAxIDI3Ljg5NTQgNDEuNDM5MSAzMS4wMDQ0QzQ0LjU0ODEgMzQuMTEzNSA0Ni40NDM1IDM3Ljc1MTUgNDYuNDQzNSA0Mi40NTRDNDYuNDQzNSA0Ny4xNTY1IDQ0LjU0ODEgNTAuNzk0NSA0MS40MzkxIDUzLjkwMzZDNDAuNzU5MyA1NC41ODM0IDM5Ljk1NzYgNTUuMTMzIDM5LjA1NzYgNTUuNTI0MkMzOC4xNTc2IDU1LjkxNTMgMzcuMTc5NyA1Ni4xMzg5IDM2LjE4OTIgNTYuMTgwMkMzNS4xOTg3IDU2LjIyMTQgMzQuMjE4NyA1Ni4wNTA5IDMzLjMxNjMgNTUuNjk0MkMzMi40MTM5IDU1LjMzNzUgMzEuNjExOSA1NC44MDQ2IDMwLjk2NDUgNTQuMTQ0MkMzMC4zMTcxIDUzLjQ4MzggMjkuODcwNSA1Mi43MTU3IDI5LjY0NjUgNTEuODk5NkMyOS40MjI1IDUxLjA4MzUgMjkuMzEyNyA1MC4yNDE4IDI5LjMyOTMgNDkuNDE5MkMyOS4yNDU5IDQ4LjU5NjYgMjkuMzQ1MiA0Ny43NzY1IDI5LjYyMjIgNDYuOTk5NkMyOS44OTkyIDQ2LjIyMjcgMzAuMzUwMyA0NS41MDI2IDMwLjk0NzYgNDQuODg5NkMzMS41NDQ5IDQ0LjI3NjYgMzIuMjY4OSA0My43OTE4IDMzLjA1MzUgNDMuNDk5NkMzMy44MzgxIDQzLjIwNzQgMzQuNjU3NiA0My4wNjQyIDM1LjQ0MzUgNDMuMDg5NkMzNi4yMjkzIDQzLjExNSAzNi45OTc2IDQzLjMwNzQgMzcuNjg5MiA0My42Nzk2QzM4LjM4MDggNDQuMDUxOCAzOC45Nzc5IDQ0LjU4MzUgMzkuNDM5MSA0NS4yMzk2QzM5LjkwMDMgNDUuODk1OCA0MC4yMjg5IDQ2LjY0NjYgNDAuMzg5MiA0Ny40Mjk2QzQwLjU0OTUgNDguMjEyNiA0MC41Mzg1IDQ4Ljk5OTYgNDAuMzU3NiA0OS43Njk2QzQwLjE3NjcgNTAuNTM5NiAzOS44MjkzIDUxLjI3OTYgMzkuMzQ3NiA1MS45Mjk2QzM4Ljg2NTkgNTIuNTc5NiAzOC4yNjM1IDUzLjExOTYgMzcuNTc5MiA1My40OTk2QzM2Ljg5NDkgNTMuODc5NiAzNi4xNDQ5IDU0LjE4OTYgMzUuMzY5MiA1NC4zOTk2QzM0LjU5MzUgNTQuNjA5NiAzMy43OTk5IDU0LjcxOTYgMzIuOTk5MiA1NC43OTk2QzMyLjE5ODUgNTQuODY5NiAzMS4zOTk5IDU0LjgwOTYgMzAuNjE5MiA1NC42OTk2QzI5LjgzODUgNTQuNTg5NiAyOS4wODk5IDU0LjQxOTYgMjguMzY5MiA1NC4xOTk2QzI3LjY0ODUgNTMuOTc5NiAyNi45NjQ5IDUzLjcwOTYgMjYuMzI5MiA1My4zOTk2QzI1LjY5MzUgNTMuMDg5NiAyNS4xMTQ5IDUyLjczOTYgMjQuNTk5MiA1Mi4zOTk2QzI0LjA4MzUgNTIuMDU5NiAyMy42Mzk5IDUxLjY3OTYgMjMuMjY5MiA1MS4yNjk2QzIyLjg5ODUgNTAuODU5NiAyMi41OTk5IDUwLjM5OTYgMjIuMzY5MiA0OS44OTk2QzIyLjEzODUgNDkuMzk5NiAyMS45Nzk5IDQ4Ljg1OTYgMjEuODg5MiA0OC4yOTk2QzIxLjc5ODUgNDcuNzM5NiAyMS43Nzk5IDQ3LjE1OTYgMjEuODE5MiA0Ni41Nzk2QzIxLjg1ODUgNDUuOTk5NiAyMS45Njk5IDQ1LjQxOTYgMjIuMTQ5MiA0NC44NTk2QzIyLjMyODUgNDQuMjk5NiAyMi41Nzk5IDQzLjc1OTYgMjIuODg5MiA0My4yMzk2QzIzLjE5ODUgNDIuNzE5NiAyMy41Njk5IDQyLjIzOTYgMjMuOTY5MiA0MS43OTk2QzI0LjM2ODUgNDEuMzU5NiAyNC44MDk5IDQwLjk1OTYgMjUuMjY5MiA0MC41OTk2QzI1LjcyODUgNDAuMjM5NiAyNi4yMTk5IDM5LjkxOTYgMjYuNzI5MiAzOS42Mzk2QzI3LjIzODUgMzkuMzU5NiAyNy43Njk5IDM5LjExOTYgMjguMzA5MiAzOC45MTk2QzI4Ljg0ODUgMzguNzE5NiAyOS4zOTk5IDM4LjU1OTYgMjkuOTQ5MiAzOC40Mzk2QzMwLjQ5ODUgMzguMzE5NiAzMS4wNTk5IDM4LjIzOTYgMzEuNjA5MiAzOC4xOTk2WiIgZmlsbD0iI0YwRjBGMCIvPgo8L3N2Zz4=');
+  background-size: 60px 60px;
+}
